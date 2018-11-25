@@ -1,0 +1,127 @@
+<!--pages/daochu/daochu.wxml-->
+<!--index.wxml-->
+<image class="head"src="image/pku.jpg"></image>
+
+<view id="panel" class="flex-column">
+  <view class="flex-cell flex-row">
+    <text class="flex-cell flex-row">姓名</text>
+    <text class="flex-cell flex-row">时间</text>
+    <text class="flex-cell flex-row">周一</text>
+    <text class="flex-cell flex-row">周二</text>
+    <text class="flex-cell flex-row">周三</text>
+    <text class="flex-cell flex-row">周四</text>
+    <text class="flex-cell flex-row">周五</text>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+   <view class="flex-row flex-cell" wx:if="{{index % 2 == 0}}">
+    <text class="flex-cell flex-row bb">{{item.name}}</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+   </view>
+   <view class="flex-row flex-cell" wx:else>
+    <text class="flex-cell flex-row cc">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    </view>
+   </block>
+  </view>
+<view id="panel" class="flex-column">
+ <block wx:for="{{listData}}" wx:key="{{code}}">
+   <view class="flex-row flex-cell" wx:if="{{index % 2 == 0}}">
+    <text class="flex-cell flex-row">姓名</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+   </view>
+   <view class="flex-row flex-cell" wx:else>
+    <text class="flex-cell flex-row cc">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    </view>
+ </block>
+</view>
+
+<view id="panel" class="flex-column">
+ <block wx:for="{{listData}}" wx:key="{{code}}">
+   <view class="flex-row flex-cell" wx:if="{{index % 2 == 0}}">
+    <text class="flex-cell flex-row">姓名</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+   </view>
+   <view class="flex-row flex-cell" wx:else>
+    <text class="flex-cell flex-row cc">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    </view>
+ </block>
+</view>
+
+<view id="panel" class="flex-column">
+ <block wx:for="{{listData}}" wx:key="{{code}}">
+   <view class="flex-row flex-cell" wx:if="{{index % 2 == 0}}">
+    <text class="flex-cell flex-row">姓名</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+   </view>
+   <view class="flex-row flex-cell" wx:else>
+    <text class="flex-cell flex-row cc">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    </view>
+ </block>
+</view>
+
+<view id="panel" class="flex-column">
+ <block wx:for="{{listData}}" wx:key="{{code}}">
+   <view class="flex-row flex-cell" wx:if="{{index % 2 == 0}}">
+    <text class="flex-cell flex-row">姓名</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+   </view>
+   <view class="flex-row flex-cell" wx:else>
+    <text class="flex-cell flex-row cc">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.code}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    <text class="flex-cell flex-row">{{item.text}}</text>
+    </view>
+ </block>
+</view>
+<button class="text-decoration">导出</button>

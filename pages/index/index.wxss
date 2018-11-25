@@ -1,0 +1,71 @@
+.head{
+width: 750rpx;
+height: 200rpx;
+position: relative;
+z-index: 9999;
+align-content: center;
+}
+
+#panel{
+background:#fff;
+}
+
+#panel text{
+line-height: 23vh;
+border-right: 2rpx solid #ddd;
+border-bottom: 2rpx solid #ddd;
+border-top: 2rpx solid #ddd;
+border-left: 2rpx solid #ddd;
+}
+#panel .text1{
+line-height: 10vh;
+border-right: 2rpx solid #ddd;
+border-bottom: 2rpx solid #ddd;
+border-top: 2rpx solid #ddd;
+}
+#panel .text2{
+line-height: 23vh;
+width: 10vh;
+border-right: 2rpx solid #ddd;
+border-bottom: 2rpx solid #ddd;
+border-top: 2rpx solid #ddd;
+}
+.wrapper{
+  margin-top:2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.flex-row{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.flex-column{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: stretch;
+}
+
+.flex-cell{
+flex: 1;
+
+}  
+
+.flex-row1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #d8f0fa;
+}
+.top_bar{
+ text-align: center;
+ margin-top:2vh;
+}
+.text{
+  display: block;
+  font-size:3vh;
+}

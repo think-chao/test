@@ -1,0 +1,62 @@
+/* pages/tianjia/tianjia.wxss */
+.section__title {
+  margin: 20rpx;
+  display:inline-block;
+}
+.section__title1{
+ margin-top:120rpx;
+ margin-left:2vh;
+ margin-bottom:3vh;
+
+}
+.section {
+  width: 100%;
+  font-size: 35rpx;
+  margin: 10rpx;
+  color: #000;
+  display:flex;
+  flex-direction: row;  
+   justify-content: space-between; 
+}
+
+.picker {
+  color: #6BD44E;
+  margin:25rpx;
+  display:inline-block;
+}
+.btn-area{
+color:#fff;
+display:block;
+text-align:center;
+background:rgba(45, 57, 220, 0.95);
+margin-left:5%;
+margin-right:5%;
+margin-top:5%;
+}
+.head{
+  width: 750rpx;
+  height: 200rpx;
+  position: relative;
+  z-index: 9999;
+  align-content: center
+}
+.hr{
+  width: 100%;
+  height: 2px;
+  margin: 5px auto;
+  background-color: #f0f0f0;
+  flex-direction: row;  
+  justify-content: center;
+}
+.wrapper{
+  margin-left:1vh;
+  margin-right:1vh;
+
+}
+.text{
+  color:rgba(140, 140, 140, 0.77);
+  
+}
+.text1{
+  color:rgba(42, 42, 42, 0.95);
+}

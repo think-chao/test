@@ -1,0 +1,11 @@
+<!--pages/list/list.wxml-->
+<image class="head"src="../../image/pku.jpg"></image>
+
+<view class="wrapper" wx:for="{{leader_list}}" wx:for-index="index" wx:for-item="item">
+<view class="list_card">
+<text class="text">{{item}}</text>
+
+<image wx:if="{{guanzhu_list[index]}}"  catchtap='list_del' src="image/liked.png"   mode="aspectFit" class="img" id="{{card_list[index]}}"></image> 
+<image wx:else src="image/like.png"  catchtap='list_add' class="img"   mode="aspectFit" id="{{card_list[index]}}"></image> 
+ </view>
+</view>

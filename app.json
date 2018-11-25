@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/tianjia/tianjia",
+    "pages/index/index",
+    
+    "pages/guanzhu/guanzhu",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "土豆日程",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+   
+    "list": [
+      {
+        "pagePath": "pages/tianjia/tianjia",
+        "text": "添加",
+        "iconPath": "images/tianjia1.png",
+        "selectedIconPath": "images/tianjia2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "日程",
+        "enablePullDownRefresh": true,
+        "iconPath": "images/richeng.png",
+        "selectedIconPath": "images/richeng5.png"
+      },
+      
+      {
+        "pagePath": "pages/guanzhu/guanzhu",
+        "text": "关注",
+        "iconPath": "images/guanzhu.png",
+        "selectedIconPath": "images/guanzhu7.png"
+      }
+    ]
+  },
+  "enablePullDownRefresh": true
+}

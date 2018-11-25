@@ -1,0 +1,37 @@
+<!--pages/guanzhu/guanzhu.wxml-->
+<image class="head"src="../../image/pku.jpg"></image>
+<view class="text-top">
+<text class="text">点击选择您想要关注的人：</text>
+<image class="img" bindtap='to_list' src="image/add1.png" mode="aspectFit"></image>
+</view>
+<view class="title">
+  <text class="flex-text">姓名</text>
+  <text class="flex-text">时间</text>
+  <text class="flex-text">周一</text>
+  <text class="flex-text">周二</text>
+  <text class="flex-text">周三</text>
+  <text class="flex-text">周四</text>
+  <text class="flex-text">周五</text>
+</view>
+<view class="loop" wx:for="{{guanzhu_list}}" wx:for-index="index" wx:for-item="item">
+<view class="content">
+  <text class="column-text-a">{{item.name}}</text>
+  <text class="column-text-item">上午</text>
+  <text class="column-text-item">{{item.am1}}</text>
+  <text class="column-text-item">{{item.am2}}</text>
+  <text class="column-text-item">{{item.am3}}</text>
+  <text class="column-text-item">{{item.am4}}</text>
+  <text class="column-text-item">{{item.am5}}</text>
+</view>
+
+<view class="content">
+  <text class="column-text-b"></text>
+  <text class="column-text-item">下午</text>
+ <text class="column-text-item">{{item.pm1}}</text>
+  <text class="column-text-item">{{item.pm2}}</text>
+  <text class="column-text-item">{{item.pm3}}</text>
+  <text class="column-text-item">{{item.pm4}}</text>
+  <text class="column-text-item">{{item.pm5}}</text>
+</view>
+
+</view>
